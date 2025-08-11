@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background:#f4f6f8; margin:0; padding:0; }
+.app { max-width:1100px; margin:24px auto; background:white; box-shadow: 0 6px 18px rgba(0,0,0,.06); border-radius:8px; overflow:hidden; }
+header { background:#0b63a6; color:white; padding:12px 20px; }
+main { padding:20px; display:flex; gap:20px; }
+.editor { flex:1; }
+.preview { width:420px; border-left:1px solid #eee; padding-left:20px; }
+input, textarea, select { width:100%; padding:8px; margin-bottom:8px; box-sizing:border-box; }
+.button { display:inline-block; padding:8px 12px; background:#0b63a6; color:white; border-radius:6px; cursor:pointer; border:none; }
+.section { border:1px dashed #ddd; padding:10px; margin-bottom:10px; border-radius:6px; background:#fafafa; }
+.row { display:flex; gap:8px; }
+.small-btn { padding:6px 8px; font-size:13px; margin-left:6px; }
